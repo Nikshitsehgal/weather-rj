@@ -12,6 +12,8 @@ import Storm from "../../assets/icons/storm.svg";
 import Sunny from "../../assets/icons/sunny.svg";
 import Sunrise from "../../assets/icons/temp.svg";
 import Wind from "../../assets/icons/wind.svg";
+import Mist from "../../assets/icons/mist.svg";
+import Snow from "../../assets/icons/snow.svg";
 import "./WeatherComponent.css";
 
 const WeatherIcons = {
@@ -29,6 +31,10 @@ const WeatherIcons = {
   "10n": RainNight,
   "11d": Storm,
   "11n": Storm,
+  "13d": Snow,
+  "13n": Snow,
+  "50d": Mist,
+  "50n": Mist,
 };
 
 const WeatherInfoComponent = ({ name, value, icon }) => {
